@@ -1,0 +1,63 @@
+.profile-photo {
+    min-width: 148px!important;
+    width: 148px!important;
+    height: auto;
+    position: relative;
+    border-radius: 50%;
+
+}
+.photo{
+    border-radius: 50%
+}
+
+.profile-photo .photo-edit-btn {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    border:1px solid gray;
+    background-color: white;
+    bottom: 8px;
+    right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.profile-photo .photo-edit-btn:after {
+    content: url(../../svg/edit.svg);
+    display: flex;
+    position: absolute;
+    right: 25%;
+    top: 15%;
+    border-radius: 50%
+}
+.profile-info {
+    display: flex;
+    align-items: center
+}
+.photo-delete {
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    background-color: transparent;
+    bottom: 8px;
+    left: 15px
+}
+
+.photo-delete:hover {
+    cursor: pointer
+}
+
+.photo-delete:after {
+    content: url(../../svg/trash.svg);
+    background-color: #fc6d6d;
+    width: 2em;
+    height: 2em;
+    padding-top: 3px;
+    display: flex;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center
+}
+

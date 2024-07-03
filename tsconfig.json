@@ -1,0 +1,28 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "lib": [ "dom", "dom.iterable", "esnext" ],
+        "allowJs": true,
+        "skipLibCheck": true, // Kütüphane dosyalarındaki tüm tip kontrollerini atlar
+        "strict": false, // Strict tip kontrolünü devre dışı bırakır
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": false, // Hatalar olsa bile dosyaların çıktısını üretir
+        "esModuleInterop": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "jsx": "preserve",
+        "incremental": true,
+        "plugins": [
+            {
+                "name": "next"
+            }
+        ],
+        "paths": {
+            "@/*": [ "./src/*" ]
+        }
+    },
+    "include": [ "next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/data/featureData.ts" ],
+    "exclude": [ "node_modules" ]
+}

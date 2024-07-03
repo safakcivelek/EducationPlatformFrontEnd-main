@@ -1,0 +1,69 @@
+.notfy-card {
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 1px 15px 1px rgba(0,0,0,.25);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 14px;
+    gap: 1em
+}
+
+.notfy-card .headern {
+    color: #767676;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    min-height: 45px!important;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden
+}
+
+.notfy-card .date {
+    color: #9397a0;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    align-items: center
+}
+
+.notfy-card .date:before {
+    content: url(/_next/static/media/noty-date.c4b4d342.svg);
+    margin-right: 6px
+}
+
+.notfy-card span {
+    color: #9397a0;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: default
+}
+.notfy-card button {
+    color: #9397a0;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: default
+}
+
+.notfy-card.notify {
+    border-left: 6px solid #2467EC
+}
+
+.notfy-card.notify .type {
+    color: #2467EC;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal
+}
+
+

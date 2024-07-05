@@ -31,7 +31,7 @@ This project is a comprehensive education platform that provides personalized le
 - **File Storage and Upload Service**: Amazon S3 Bucket
 
 ## Explore the Platform
-- Explore the live version of our project and experience the new era of learning at https://tobeto.fatihsevencan.com
+- Explore the live version of our project and experience the new era of learning at https://tobeto.safakcivelek.com
 
 ## Screenshots
 
